@@ -339,7 +339,7 @@ with chat_container:
 
     for message in st.session_state.chat_history:
         role = message.get("role", "assistant")
-        avatar = "👤" if role == "user" else "🤖"
+        avatar = "👤" if role == "user" else "🛸"
         with st.chat_message(role, avatar=avatar):
             st.markdown(message["content"])
 
@@ -386,4 +386,5 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True
 )
+
 
