@@ -12,7 +12,7 @@ load_dotenv()
 # Page configuration
 st.set_page_config(
     page_title="GENAI Chatbot by Samrat",
-    page_icon="🤖",
+    page_icon="⚛",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -386,5 +386,6 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True
 )
+
 
 
