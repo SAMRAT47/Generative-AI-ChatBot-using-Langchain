@@ -1,0 +1,13 @@
+1. User Query
+
+2. Display User Query
+
+3. Save QUERY to Chat History
+
+4. Send the Chat History to LLM
+
+5. Get Response from LLM
+
+6. Save RESPONSE to Chat History
+
+7. Display LLM Response
