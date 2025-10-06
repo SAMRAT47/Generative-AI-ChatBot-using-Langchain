@@ -357,7 +357,7 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     # generate assistant response (stream)
-    with st.chat_message("assistant", avatar="🤖"):
+    with st.chat_message("assistant", avatar="🛸"):
         placeholder = st.empty()
         full_response = ""
         try:
@@ -386,3 +386,4 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True
 )
+
