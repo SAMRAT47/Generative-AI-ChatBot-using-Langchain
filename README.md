@@ -79,7 +79,7 @@ You can attach screenshots in this section after deployment to visually showcase
 
 Once deployed, include your application URL below:
 
-**Application URL:** [https://your-app-url.streamlit.app](https://generative-ai-chatbot-using-langchain-by-samrat.streamlit.app/)
+**Application URL:** [https://generative-ai-chatbot-using-langchain-by-samrat.streamlit.app/]
 
 ---
 
