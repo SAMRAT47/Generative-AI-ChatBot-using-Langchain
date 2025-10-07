@@ -1,6 +1,6 @@
 ---
 
-# Multi-Provider AI Chatbot with Streamlit
+## Multi-Provider AI Chatbot with Streamlit
 
 **Created by Samrat Roychoudhury**
 
