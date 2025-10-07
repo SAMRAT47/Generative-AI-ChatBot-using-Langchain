@@ -118,7 +118,7 @@ Machine Learning & AI Developer
 
 LinkedIn: https://www.linkedin.com/in/samrat-roychoudhury/
 
-Email: *[(samrat.rc47@gmail.com)]*
+Email: samrat.rc47@gmail.com
 
 ---
 
