@@ -399,7 +399,7 @@ apply_global_styles()
 # ============================================
 
 st.markdown('<div style="position:relative; z-index:9999;">', unsafe_allow_html=True)
-st.title("🤖 Multi-Provider ֎🇦🇮 Chatbot")
+st.title("🤖 Multi-Provider AI Chatbot")
 st.markdown(
     "<p style='text-align:center; color: rgba(255,255,255,0.92); margin-top:-8px;'>"
     "Support for OpenAI, Gemini, Groq & Ollama | Created by Samrat Roychoudhury"
@@ -514,7 +514,7 @@ with st.sidebar:
             for msg in st.session_state.chat_history
         ])
         st.download_button(
-            label="📥 Export Chat",
+            label="⬇ Export Chat",
             data=chat_text,
             file_name=f"chat_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
             mime="text/plain",
@@ -535,7 +535,7 @@ with chat_container:
 
     for message in st.session_state.chat_history:
         role = message.get("role", "assistant")
-        avatar = "🤵🏻" if role == "user" else "👽"
+        avatar = "🤵🏻" if role == "user" else "🛸"
         with st.chat_message(role, avatar=avatar):
             st.markdown(message["content"])
 
@@ -555,7 +555,7 @@ if user_prompt:
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     # Generate AI response
-    with st.chat_message("assistant", avatar="👽"):
+    with st.chat_message("assistant", avatar="🛸"):
         placeholder = st.empty()
         full_response = ""
 
@@ -600,4 +600,5 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
