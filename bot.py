@@ -485,9 +485,6 @@ with st.sidebar:
 
     st.markdown("---")
 
-
-   st.markdown("---")
-
     # Chat Statistics - Use a container that updates dynamically
     stats_container = st.container()
     with stats_container:
@@ -609,6 +606,7 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
 
 
