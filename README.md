@@ -71,11 +71,11 @@ You can attach screenshots in this section after deployment to visually showcase
 | **Sidebar Panel**              | Contains provider, model, and parameter configuration. |
 | **Chat Clear and Export View** | Demonstrates chat history management.                  |
 
-![Main Interface:](static/images/screenshoot.PNG)
+![Main Interface:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture1.JPG)
 
-![Sidebar Panel:](static/images/screenshoot.PNG)
+![Sidebar Panel:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture2.JPG)
 
-![Chat Management:](static/images/screenshoot.PNG)
+![Chat Management:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture3.JPG)
 
 
 ---
@@ -103,7 +103,7 @@ Once deployed, include your application URL below:
 Machine Learning & AI Developer
 
 LinkedIn: [https://www.linkedin.com/in/samratroychoudhury](https://www.linkedin.com/in/samratroychoudhury)
-Email: *[[your.email@example.com](mailto:your.email@example.com)]*
+Email: *[samrat.rc47@gmail.com]*
 
 ---
 
