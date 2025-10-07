@@ -71,7 +71,12 @@ You can attach screenshots in this section after deployment to visually showcase
 | **Sidebar Panel**              | Contains provider, model, and parameter configuration. |
 | **Chat Clear and Export View** | Demonstrates chat history management.                  |
 
-*(Attach your screenshots here as image files.)*
+![Main Interface:](static/images/screenshoot.PNG)
+
+![Sidebar Panel:](static/images/screenshoot.PNG)
+
+![Chat Management:](static/images/screenshoot.PNG)
+
 
 ---
 
