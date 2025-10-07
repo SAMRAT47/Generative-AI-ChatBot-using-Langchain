@@ -98,7 +98,7 @@ You can attach screenshots in this section after deployment to visually showcase
 
 Once deployed, include your application URL below:
 
-**Application URL:** [https://generative-ai-chatbot-using-langchain-by-samrat.streamlit.app/]
+**Application URL:** https://generative-ai-chatbot-using-langchain-by-samrat.streamlit.app/
 
 ---
 
@@ -116,18 +116,9 @@ Once deployed, include your application URL below:
 **Samrat Roychoudhury**
 Machine Learning & AI Developer
 
-LinkedIn: (https://www.linkedin.com/in/samrat-roychoudhury/)
+LinkedIn: https://www.linkedin.com/in/samrat-roychoudhury/
 
-Email: *[samrat.rc47@gmail.com]*
-
----
-
-## License
-
-Licensed under the **MIT License**.
-You are free to use and modify this project with proper credit to the author.
+Email: *[(samrat.rc47@gmail.com)]*
 
 ---
-
-Would you like me to tailor this README slightly for **LinkedIn publication format** too (shorter and more narrative for showcasing)?
 
