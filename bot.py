@@ -33,8 +33,8 @@ load_dotenv()
 
 # Page configuration - must be the first Streamlit command
 st.set_page_config(
-    page_title="Multi-Provider AI Chatbot",
-    page_icon="🤖",
+    page_title="GENAI-Chatbot by Samrat",
+    page_icon="⚛",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -399,7 +399,7 @@ apply_global_styles()
 # ============================================
 
 st.markdown('<div style="position:relative; z-index:9999;">', unsafe_allow_html=True)
-st.title("🤖 Multi-Provider AI Chatbot")
+st.title("🤖 Multi-Provider ֎🇦🇮 Chatbot")
 st.markdown(
     "<p style='text-align:center; color: rgba(255,255,255,0.92); margin-top:-8px;'>"
     "Support for OpenAI, Gemini, Groq & Ollama | Created by Samrat Roychoudhury"
@@ -487,7 +487,7 @@ with st.sidebar:
 
     # Chat Statistics
     if st.session_state.chat_history:
-        st.markdown("### 📊 Chat Statistics")
+        st.markdown("### 🔎 Chat Statistics")
         user_msgs = len([m for m in st.session_state.chat_history if m["role"] == "user"])
         assistant_msgs = len([m for m in st.session_state.chat_history if m["role"] == "assistant"])
 
@@ -500,10 +500,10 @@ with st.sidebar:
         st.metric("Total Messages", len(st.session_state.chat_history))
 
     st.markdown("---")
-    st.markdown("### 🛠️ Actions")
+    st.markdown("### 🔗 Actions")
 
     # Clear chat button
-    if st.button("🗑️ Clear Chat", use_container_width=True):
+    if st.button("🗑 Clear Chat", use_container_width=True):
         st.session_state.chat_history = []
         components.html("<script>window.location.reload()</script>", height=0)
 
@@ -521,7 +521,7 @@ with st.sidebar:
             use_container_width=True
         )
     else:
-        st.button("📥 Export Chat", disabled=True, use_container_width=True)
+        st.button("⬇ Export Chat", disabled=True, use_container_width=True)
 
 # ============================================
 # SECTION 8: CHAT INTERFACE
@@ -535,7 +535,7 @@ with chat_container:
 
     for message in st.session_state.chat_history:
         role = message.get("role", "assistant")
-        avatar = "👤" if role == "user" else "🤖"
+        avatar = "🤵🏻" if role == "user" else "👽"
         with st.chat_message(role, avatar=avatar):
             st.markdown(message["content"])
 
@@ -548,14 +548,14 @@ user_prompt = st.chat_input("Type your message here...", key="chat_input")
 
 if user_prompt:
     # Display user message
-    with st.chat_message("user", avatar="👤"):
+    with st.chat_message("user", avatar="🤵🏻"):
         st.markdown(user_prompt)
 
     # Add to chat history
     st.session_state.chat_history.append({"role": "user", "content": user_prompt})
 
     # Generate AI response
-    with st.chat_message("assistant", avatar="🤖"):
+    with st.chat_message("assistant", avatar="👽"):
         placeholder = st.empty()
         full_response = ""
 
@@ -600,3 +600,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
