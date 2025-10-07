@@ -55,7 +55,7 @@ PROVIDER_CONFIG = {
         "env_key": "GOOGLE_API_KEY"
     },
     "Groq": {
-        "models": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"],
+        "models": ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"],
         "import_path": "langchain_groq",
         "class_name": "ChatGroq",
         "env_key": "GROQ_API_KEY"
@@ -598,4 +598,5 @@ st.markdown(
     "<em>Supports OpenAI, Google Gemini, Groq, and Ollama</em>"
     "</div>",
     unsafe_allow_html=True
+
 )
