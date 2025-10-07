@@ -1,4 +1,4 @@
-# Multi-Provider AI Chatbot with Streamlit
+# Multi-Provider AI Chatbot with Langchain in Streamlit UI
 
 **Created by Samrat Roychoudhury**
 
