@@ -65,11 +65,11 @@ The chatbot features a clean, modern UI, dynamic model selection, real-time resp
 
 You can attach screenshots in this section after deployment to visually showcase the interface.
 
-| Section              | Description                                            |
-| -------------------- | ------------------------------------------------------ |
-| **Main Interface**   | Displays the chat layout with user and AI messages.    |
-| **Sidebar Panel**    | Contains provider, model, and parameter configuration. |
-| **Chat Export View** | Demonstrates chat history management.                  |
+| Section                        | Description                                            |
+| ------------------------------ | ------------------------------------------------------ |
+| **Main Interface**             | Displays the chat layout with user and AI messages.    |
+| **Sidebar Panel**              | Contains provider, model, and parameter configuration. |
+| **Chat Clear and Export View** | Demonstrates chat history management.                  |
 
 *(Attach your screenshots here as image files.)*
 
