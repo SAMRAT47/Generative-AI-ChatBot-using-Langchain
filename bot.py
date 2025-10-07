@@ -502,8 +502,8 @@ with st.sidebar:
 
             st.metric("Total Messages", len(st.session_state.chat_history))
             
-             Debug info (remove after testing)
-             st.caption(f"Debug: {len(st.session_state.chat_history)} messages in history")
+             #Debug info (remove after testing)
+             #st.caption(f"Debug: {len(st.session_state.chat_history)} messages in history")
 
     st.markdown("---")
     st.markdown("### 🔗 Actions")
@@ -606,6 +606,7 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
 
 
