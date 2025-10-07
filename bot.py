@@ -486,14 +486,17 @@ with st.sidebar:
     st.markdown("---")
 
 
+   st.markdown("---")
+
     # Chat Statistics - Use a container that updates dynamically
     stats_container = st.container()
     with stats_container:
         if st.session_state.chat_history:
             st.markdown("### 🔎 Chat Statistics")
-            user_msgs = len([m for m in st.session_state.chat_history if m["role"] == "user"])
-            assistant_msgs = len([m for m in st.session_state.chat_history if m["role"] == "assistant"])
-
+            # Filter only user and assistant messages
+            user_msgs = len([m for m in st.session_state.chat_history if m.get("role") == "user"])
+            assistant_msgs = len([m for m in st.session_state.chat_history if m.get("role") == "assistant"])
+            
             col1, col2 = st.columns(2)
             with col1:
                 st.metric("User", user_msgs)
@@ -501,6 +504,9 @@ with st.sidebar:
                 st.metric("AI", assistant_msgs)
 
             st.metric("Total Messages", len(st.session_state.chat_history))
+            
+             Debug info (remove after testing)
+             st.caption(f"Debug: {len(st.session_state.chat_history)} messages in history")
 
     st.markdown("---")
     st.markdown("### 🔗 Actions")
@@ -603,6 +609,7 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
 
 
