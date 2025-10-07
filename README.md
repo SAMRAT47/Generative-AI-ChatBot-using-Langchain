@@ -71,11 +71,25 @@ You can attach screenshots in this section after deployment to visually showcase
 | **Sidebar Panel**              | Contains provider, model, and parameter configuration. |
 | **Chat Clear and Export View** | Demonstrates chat history management.                  |
 
-![Main Interface:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture1.JPG)
 
-![Sidebar Panel:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture2.JPG)
+## Screenshots  
 
-![Chat Management:](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture3.JPG)
+### 🖥️ Main Interface  
+![Main Interface](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture1.JPG)  
+*Clean, centered chat interface showing user and AI messages.*
+
+---
+
+### 🎛️ Sidebar Panel  
+![Sidebar Panel](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture%202.JPG)  
+*Interactive sidebar with provider selection, model options, and configuration controls.*
+
+---
+
+### 💬 Chat Management  
+![Chat Management](https://github.com/SAMRAT47/Generative-AI-ChatBot-using-Langchain/blob/main/App%20Screenshot/Capture%203.JPG)  
+*Chat export and history management section with clear layout and metrics.*
+
 
 
 ---
