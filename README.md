@@ -116,7 +116,7 @@ Once deployed, include your application URL below:
 **Samrat Roychoudhury**
 Machine Learning & AI Developer
 
-LinkedIn: [https://www.linkedin.com/in/samratroychoudhury](https://www.linkedin.com/in/samratroychoudhury)
+LinkedIn: (https://www.linkedin.com/in/samrat-roychoudhury/)
 Email: *[samrat.rc47@gmail.com]*
 
 ---
